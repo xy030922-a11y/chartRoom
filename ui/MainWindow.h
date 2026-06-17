@@ -36,8 +36,7 @@ class MainWindow : public QMainWindow
 
         void onSystemMessage(const QString &message);
 
-        void onLoginResult(bool success, const QString &message);
-
+        
     private:
         void initUi();
         void initConnections();

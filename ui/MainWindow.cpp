@@ -86,7 +86,7 @@ void MainWindow::initUi()
     mainLayout->addLayout(serverLayout);
     mainLayout->addWidget(chatTextEdit_);
     mainLayout->addLayout(inputLayout);
-    mainLayout->addWidget(statusLabel_);
+   
 
     central->setLayout(mainLayout);
     setCentralWidget(central);
