@@ -30,7 +30,10 @@ MainWindow::MainWindow(QWidget *parent)
 }
 MainWindow::~MainWindow() = default;
 
-
+const QString MainWindow::getName()
+{
+    return namelineedit_->text().trimmed();
+}
 //-------------private-----------------
 void MainWindow::initUi()
 {
@@ -179,12 +182,12 @@ void MainWindow::onSendButtonClicked()
         return;
     }
 
-    messageHandler_->sendChatMessage(text);
-
     QString name = namelineedit_->text().trimmed();
     if (name.isEmpty()) {
         name = "我";
     }
+
+    messageHandler_->sendChatMessage(text, name);
 
     chatTextEdit_->append(name + ": " + text);
     messageLineEdit_->clear();
@@ -220,6 +223,10 @@ void MainWindow::onChatMessageReceived(const QString &sender,
 {
     Q_UNUSED(time);
 
+    if(sender == getName())
+    {
+        return;
+    }
     chatTextEdit_->append(sender + ": " + text);
 }
 

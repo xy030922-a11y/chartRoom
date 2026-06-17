@@ -20,6 +20,7 @@ class MainWindow : public QMainWindow
         explicit MainWindow(QWidget *parent = nullptr);
         ~MainWindow();
 
+         const QString getName();
     private slots:
         void onConnectButtonClicked();
         void onDisconnectButtonClicked();

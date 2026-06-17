@@ -17,10 +17,11 @@ MessageHandler::MessageHandler(ClientSocket *clientSocket,
             this, &MessageHandler::onPacketReceived);
 }
 
-void MessageHandler::sendChatMessage(const QString &text)
+void MessageHandler::sendChatMessage(const QString &text, const QString  &name)
 {
     QJsonObject obj;
     obj["cmd"] = "chat";
+    obj["name"] = name;
     obj["text"] = text;
     obj["time"] = QDateTime::currentDateTime().toString(Qt::ISODate);
 
@@ -33,17 +34,27 @@ void MessageHandler::onPacketReceived(const QJsonObject &obj)
     QString cmd = obj["cmd"].toString();
 
 
-    if (cmd == "chat") {
-        QString sender = obj["sender"].toString();
+    if (cmd == "chat" || cmd == "chat_message") {
+        QString sender = obj["name"].toString();
         QString text = obj["text"].toString();
         QString time = obj["time"].toString();
 
         emit chatMessageReceived(sender, text, time);
     }
-    else if (cmd == "system") {
+    else if (cmd == "system" ) {
         QString message = obj["message"].toString();
 
         emit systemMessage(message);
+    }
+    else if (cmd == "chat_ack") {
+        QString ok = obj["ok"].toString();
+        QString name = obj["name"].toString();
+        QString time = obj["time"].toString();
+
+        QString message = ok + name + time;
+
+        emit systemMessage(message);
+
     }
     else {
         emit handlerError("Unknown cmd: " + cmd);

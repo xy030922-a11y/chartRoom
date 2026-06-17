@@ -16,7 +16,7 @@ class MessageHandler : public QObject
     public:
         explicit MessageHandler(ClientSocket *clientSocket, QObject *parent = nullptr);
 
-        void sendChatMessage(const QString &text);
+        void sendChatMessage(const QString &text, const QString  &name);
 
     public slots:
         void onPacketReceived(const QJsonObject &obj);
