@@ -1,0 +1,5 @@
+/home/xu/chartRoom/build/CMakeFiles/QtChatClient.dir
+/home/xu/chartRoom/build/CMakeFiles/edit_cache.dir
+/home/xu/chartRoom/build/CMakeFiles/rebuild_cache.dir
+/home/xu/chartRoom/build/CMakeFiles/QtChatClient_autogen_timestamp_deps.dir
+/home/xu/chartRoom/build/CMakeFiles/QtChatClient_autogen.dir

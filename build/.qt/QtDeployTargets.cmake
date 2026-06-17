@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_QtChatClient_FILE /home/xu/chartRoom/build/QtChatClient)
+set(__QT_DEPLOY_TARGET_QtChatClient_TYPE EXECUTABLE)

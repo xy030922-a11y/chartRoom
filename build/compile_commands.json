@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/xu/chartRoom/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/xu/chartRoom/build/QtChatClient_autogen/include -I/home/xu/chartRoom -I/home/xu/chartRoom/ui -I/home/xu/chartRoom/server -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -o CMakeFiles/QtChatClient.dir/QtChatClient_autogen/mocs_compilation.cpp.o -c /home/xu/chartRoom/build/QtChatClient_autogen/mocs_compilation.cpp",
+  "file": "/home/xu/chartRoom/build/QtChatClient_autogen/mocs_compilation.cpp",
+  "output": "/home/xu/chartRoom/build/CMakeFiles/QtChatClient.dir/QtChatClient_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/xu/chartRoom/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/xu/chartRoom/build/QtChatClient_autogen/include -I/home/xu/chartRoom -I/home/xu/chartRoom/ui -I/home/xu/chartRoom/server -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -o CMakeFiles/QtChatClient.dir/main.cpp.o -c /home/xu/chartRoom/main.cpp",
+  "file": "/home/xu/chartRoom/main.cpp",
+  "output": "/home/xu/chartRoom/build/CMakeFiles/QtChatClient.dir/main.cpp.o"
+},
+{
+  "directory": "/home/xu/chartRoom/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/xu/chartRoom/build/QtChatClient_autogen/include -I/home/xu/chartRoom -I/home/xu/chartRoom/ui -I/home/xu/chartRoom/server -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -o CMakeFiles/QtChatClient.dir/ui/MainWindow.cpp.o -c /home/xu/chartRoom/ui/MainWindow.cpp",
+  "file": "/home/xu/chartRoom/ui/MainWindow.cpp",
+  "output": "/home/xu/chartRoom/build/CMakeFiles/QtChatClient.dir/ui/MainWindow.cpp.o"
+},
+{
+  "directory": "/home/xu/chartRoom/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/xu/chartRoom/build/QtChatClient_autogen/include -I/home/xu/chartRoom -I/home/xu/chartRoom/ui -I/home/xu/chartRoom/server -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -o CMakeFiles/QtChatClient.dir/server/ClientSocket.cpp.o -c /home/xu/chartRoom/server/ClientSocket.cpp",
+  "file": "/home/xu/chartRoom/server/ClientSocket.cpp",
+  "output": "/home/xu/chartRoom/build/CMakeFiles/QtChatClient.dir/server/ClientSocket.cpp.o"
+},
+{
+  "directory": "/home/xu/chartRoom/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/xu/chartRoom/build/QtChatClient_autogen/include -I/home/xu/chartRoom -I/home/xu/chartRoom/ui -I/home/xu/chartRoom/server -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -o CMakeFiles/QtChatClient.dir/server/MessageHandler.cpp.o -c /home/xu/chartRoom/server/MessageHandler.cpp",
+  "file": "/home/xu/chartRoom/server/MessageHandler.cpp",
+  "output": "/home/xu/chartRoom/build/CMakeFiles/QtChatClient.dir/server/MessageHandler.cpp.o"
+}
+]

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/xu/chartRoom/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
